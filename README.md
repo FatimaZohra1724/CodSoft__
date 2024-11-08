@@ -1,2 +1,2 @@
-# CodeSoft
-Internship_in_Codesoft(05 th Nov.-05 th Dec.)
+# CodSoft
+Internship_in_Codsoft(05 th Nov.-05 th Dec.)
