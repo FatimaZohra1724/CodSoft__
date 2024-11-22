@@ -20,6 +20,6 @@ def gen_pass(L=8):
         random.shuffle(password)
         return ''.join(password)
 
-len_=int(input("Enter the length of password\nc"))
+len_=int(input("Enter the length of password\n"))
 
 print(f"The password are ;{gen_pass(L=len_)}")
