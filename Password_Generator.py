@@ -1,6 +1,6 @@
-print("Welcome to password Generator")
 import random
 import string 
+print("Welcome to password Generator")
 def gen_pass(L=8):
     if L<4:
         print("password length must be at least 4")
@@ -20,7 +20,6 @@ def gen_pass(L=8):
         random.shuffle(password)
         return ''.join(password)
 
-    
-    len_=int(input("Enter the length of password"))
-gen_pass(L=8)
+len_=int(input("Enter the length of password\nc"))
 
+print(f"The password are ;{gen_pass(L=len_)}")

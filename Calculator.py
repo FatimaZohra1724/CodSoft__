@@ -27,7 +27,7 @@ while True:
     print("4.Divison(/)")
     print("5.Exit")
     try:
-        choices=int(input("What operation did you want to perform-\n"))
+        choices=int(input("What operation did you want to perform\n"))
         if choices in[1,2,3,4]:
                 User_choice_1=float(input("What is your 1st number\n"))
                 User_choice_2=float(input("What is your 2nd number\n"))
